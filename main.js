@@ -4,7 +4,6 @@ const title = document.getElementById("title");
 const content = document.getElementById("content");
 const form = document.getElementById("form");
 const send = document.getElementById("send");
-const buttonDelete = document.getElementById("delete");
 const gridConteiner = document.getElementById("grid-conteiner");
 
 
@@ -36,7 +35,7 @@ function deleteOne(id) {
         lStorage.setItem(i, lStorage.getItem(i + 1));
     }
     change = false;
-    setTimeout(() => { change = true }, 3000);
+    setTimeout(() => change = true, 3000);
 }
 
 function loadData() {
