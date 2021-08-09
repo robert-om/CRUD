@@ -2,11 +2,12 @@
     font-family: 'Montserrat', sans-serif;
     outline: none;
 }
+p {
+    height: 180px;
+    text-align: center;
+}
 p, h1 {
     max-width: 195.014px;
-}
-.removeOne {
-    position: relative;
 }
 h3 {
     max-height: 24px;
@@ -70,6 +71,14 @@ h3 {
     border: 1px solid #000;
     text-align: center;
     max-width: 195.014px;
+    transition: background .1s;
+}
+#grid-conteiner div:hover {
+    background-color: #e6e6e6;
+    cursor: pointer;
+}
+#grid-conteiner div:active {
+    background-color: #f2f2f2;
 }
 
 #grid-conteiner :nth-child(1) {
@@ -102,8 +111,4 @@ h3 {
 }
 #grid-conteiner :nth-child(10) {
     margin-top: 0;
-}
-p {
-    height: 180px;
-    text-align: center;
 }

@@ -35,7 +35,7 @@ function deleteOne(id) {
         lStorage.setItem(i, lStorage.getItem(i + 1));
     }
     change = false;
-    setTimeout(() => change = true, 3000);
+    setTimeout(() => change = true, 100);
 }
 
 function loadData() {

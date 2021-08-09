@@ -61,6 +61,8 @@ h3 {
     background-color: #bcbcbc;
     color: #555;
     transition: all 0.2s;
+    padding: 3px;
+    border-radius: 3px;
 }
 .fas:hover {
     color: #777;
