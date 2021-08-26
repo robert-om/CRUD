@@ -1,3 +1,4 @@
+
 "use strict";
 
 const title = document.getElementById("title");
@@ -9,6 +10,7 @@ const gridConteiner = document.getElementById("grid-conteiner");
 
 const lStorage = window.localStorage;
 const sStorage = window.sessionStorage;
+
 let change = true;
 
 send.addEventListener("click", () => {
