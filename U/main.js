@@ -1,8 +1,8 @@
 
 const updateId = localStorage.getItem("updateId");
 let data = localStorage.getItem(updateId);
-const title = data.split("|")[0].replace(/\s/g, "");
-const content = data.split("|")[1].replace(/\s/g, "");
+const title = data.split("|")[0].trim();
+const content = data.split("|")[1].trim();
 
 const form = document.getElementById("form");
 const documentContent = document.createElement("textarea");
